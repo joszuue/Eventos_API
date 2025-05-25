@@ -121,3 +121,4 @@ Este documento describe los endpoints disponibles para el sistema de gestión de
 ---
 
 **Desarrollado por:** Denis Josué Vásquez Rodríguez
+**Carné:** VR222731

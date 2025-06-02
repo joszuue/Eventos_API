@@ -113,6 +113,22 @@ Este documento describe los endpoints disponibles para el sistema de gestión de
 
 ---
 
+### Confirmar Evento  
+**POST** `https://tarea.transforma.edu.sv/UserEventos/eventos`
+
+```json
+{
+  "evento": "2"
+}
+```
+
+### Mis eventos  
+**GET** `https://tarea.transforma.edu.sv/UserEventos/eventos`
+
+
+### Eliminar Confirmación de Evento  
+**DELETE** `https://tarea.transforma.edu.sv/UserEventos/eventos/1`
+
 **📌 Notas:**
 - Asegúrate de enviar los datos en formato JSON.
 - La contraseña en la modificación debe estar encriptada (ej. bcrypt).
@@ -120,6 +136,10 @@ Este documento describe los endpoints disponibles para el sistema de gestión de
 
 ---
 
-**Desarrollado por:** Denis Josué Vásquez Rodríguez
+**Desarrollado por:** 
 
-**Carné:** VR222731
+Ramos Jiménez, Jairo Dennis		      RJ172021
+Villegas Hernández, José Manuel		  VH201183
+Vásquez Rodríguez, Denis Josué		  VR222731
+Velásquez Rodríguez, Jorge Alberto	VR210280
+
